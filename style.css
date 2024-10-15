@@ -1,29 +1,34 @@
-@import url('https://fonts.googleapis.com/css2family=Lato:ital,wght@0,100;0,300;0display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;1,100;1,400;1,700;1,900&display=swap');
 
 *{
-     font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif;
 }
-h1,h2{
-    color: #d4d4d2;
+
+h1, h2{
+    color: #D4D4D2;
 }
 
 h1{
-    margin-block-start:0cm;
+    margin-block-start: 0em;
     color: white;
 }
+
 .input_area{
-    width: 100;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 input{
-    height: 1,5em;
+    height: 1.5em;
 }
+
 textarea{
-    width: 100;
+    width: 100%;
     margin-top: 2em;
 }
+
 .container{
     background-color: #1c1c1c;
     display: inline-flex;
@@ -32,13 +37,15 @@ textarea{
     flex-direction: column;
     align-items: center;
 }
+
 .area{
     display: flex;
     justify-content: center;
 }
+
 button{
     text-transform: uppercase;
-    padding: 1rem 1.5em;
+    padding: 1rem 1.5rem;
     background-color: #f44236;
     border: none;
     color: #fff;
@@ -49,4 +56,3 @@ button:hover{
     cursor: center;
     opacity: 1;
 }
-    
